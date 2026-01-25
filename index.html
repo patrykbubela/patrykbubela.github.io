@@ -9,9 +9,9 @@
         .button1 {
             background-color: hotpink;
             color: purple;
-            height:100px;
-            width:150px;
-            font-size: 50px;
+            height:200px;
+            width:300px;
+            font-size: 100px;
         }
         @font-face {
         font-family: "LucySaidOkPersonalUse";
@@ -40,9 +40,9 @@
     <script type="text/javascript">
         var clicks = 0;
         const targetBtn = document.getElementById('button1')
-        let currentSize1 = 150;
-        let currentSize2 = 100;
-        let currentSize3 = 50;
+        let currentSize1 = 300;
+        let currentSize2 = 200;
+        let currentSize3 = 100;
         function onClick() {
             clicks += 1;
             targetBtn.style.width = currentSize1*(clicks+1) + 'px';
@@ -52,4 +52,5 @@
         </script>
 </body>
 </html>
+
 
