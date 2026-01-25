@@ -9,16 +9,9 @@
         .button1 {
             background-color: hotpink;
             color: purple;
-            height:50px;
-            width:75px;
-            font-size: 20px;
-        }
-        .button2 {
-            background-color: hotpink;
-            color: purple;
-            height:calc(50px);
-            width:calc(75px);
-            font-size: 20px;
+            height:100px;
+            width:150px;
+            font-size: 50px;
         }
         @font-face {
         font-family: "LucySaidOkPersonalUse";
@@ -27,7 +20,7 @@
 
         body {
         font-family: "LucySaidOkPersonalUse";
-        font-size: 2vw;
+        font-size: 5vw;
         }
     </style>
     
@@ -47,9 +40,9 @@
     <script type="text/javascript">
         var clicks = 0;
         const targetBtn = document.getElementById('button1')
-        let currentSize1 = 75;
-        let currentSize2 = 50;
-        let currentSize3 = 20;
+        let currentSize1 = 150;
+        let currentSize2 = 100;
+        let currentSize3 = 50;
         function onClick() {
             clicks += 1;
             targetBtn.style.width = currentSize1*(clicks+1) + 'px';
@@ -59,3 +52,4 @@
         </script>
 </body>
 </html>
+
