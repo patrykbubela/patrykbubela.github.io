@@ -1,0 +1,61 @@
+<html>
+<head>
+
+    <style>
+        h1 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        button {text-align: center;}
+        .button1 {
+            background-color: hotpink;
+            color: purple;
+            height:50px;
+            width:75px;
+            font-size: 20px;
+        }
+        .button2 {
+            background-color: hotpink;
+            color: purple;
+            height:calc(50px);
+            width:calc(75px);
+            font-size: 20px;
+        }
+        @font-face {
+        font-family: "LucySaidOkPersonalUse";
+        src: url("LucySaidOkPersonalUse.ttf");
+        }
+
+        body {
+        font-family: "LucySaidOkPersonalUse";
+        font-size: 2vw;
+        }
+    </style>
+    
+    <title>❤❤❤Walentynki❤❤❤</title>
+</head>
+
+<body>
+    <div>
+    <IMG SRC="365591-Barbie-Be-My-Valentine-Gif.gif" style = "max-height:auto; height:50%"><br>
+    <h1 style = "color:purple">Czy będziesz moją walentynką?</h1>
+    <a href = "yuppiee.html" ><button id = "button1" type="button" class="button1">Tak</button></a>
+    <button id = "button2" type="button" onClick="onClick()" class="button1">Nie</button>
+    
+
+    </div>
+
+    <script type="text/javascript">
+        var clicks = 0;
+        const targetBtn = document.getElementById('button1')
+        let currentSize1 = 75;
+        let currentSize2 = 50;
+        let currentSize3 = 20;
+        function onClick() {
+            clicks += 1;
+            targetBtn.style.width = currentSize1*(clicks+1) + 'px';
+            targetBtn.style.height = currentSize2*(clicks+1) + 'px';
+            targetBtn.style.fontSize = currentSize3*(clicks+1) + 'px';
+        };
+        </script>
+</body>
+</html>
