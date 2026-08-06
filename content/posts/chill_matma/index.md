@@ -2,16 +2,18 @@
 date: '2026-08-05T01:12:01+02:00'
 draft: false
 title: 'Chill Matma'
-weight: 1
+weight: 10
 cover:
   image: "chillmatma_landing.webp"
   alt: "Landing page preview"
   caption: ""
   relative: true
+  hiddenInSingle: true
 ---
 ### Introduction
-[Chill Matma](https://chillmatma.pl/) is my biggest web development project yet. The idea is simple, I am trying to make it easier for Polish highschool students to prepare for the Matura final exam. My website aggregates past exam sheets and makes it easier to learn from them as much as possible. The website is available under a custom .pl domain [chillmatma.pl](https://chillmatma.pl/)
-![Website preview](chillmatma_preview.webp)
+[Chill Matma](https://chillmatma.pl/) is my biggest web development project yet. The idea is pretty simple, I am trying to make it easier for Polish highschool students to prepare for the Matura final exam. My website aggregates past exam sheets and makes it easier to learn from them as much as possible. The website is available under a custom .pl domain [chillmatma.pl](https://chillmatma.pl/)
+![Website preview 1](chillmatma_landing.webp)
+![Website preview 2](chillmatma_preview.webp)
 ### Framework
 The website runs on the Django Python framework. It was a great choice as it enabled me to develop the website really fast and make use of my python experience. The integrated SQLite database and models philosophy are great for tweaking the content and its attributes.
 ### Backend & Architecture

@@ -3,11 +3,14 @@ locale: en-uk
 title: Patryk Bubeła
 theme: ["PaperMod"]
 params:
+  ShowShareButtons: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
   homeInfoParams:
     Title: Hello there
     Content: My name is Patryk Bubeła and I am a Telecommunications engineering student at the Faculty of Electronics and Information Technology, Warsaw University of Technology.
-
-  socialIcons: # optional
+  socialIcons:
     - name: "GitHub"
       url: "https://github.com/3adyl"
     - name: "LinkedIn"
@@ -15,3 +18,16 @@ params:
 caches:
   images:
     dir: :cacheDir/images
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+menus:
+  main:
+    - name: Home
+      pageRef: /
+      weight: 10
+    - name: Search
+      url: /search/
+      weight: 100
