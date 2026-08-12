@@ -8,14 +8,12 @@ cover:
   alt: "Landing page preview"
   caption: ""
   relative: true
-  hiddenInSingle: true
+  hiddenInSingle: false
 ---
 
-## Introduction
-
-[Chill Matma](https://chillmatma.pl/) is my biggest web development project yet. The idea is pretty simple, I am trying to make it easier for Polish highschool students to prepare for the Matura final exam. My website aggregates past exam sheets and makes it easier to learn from them as much as possible. The website is available under a custom .pl domain [chillmatma.pl](https://chillmatma.pl/)
-![Website preview 1](chillmatma_landing.webp)
-![Website preview 2](chillmatma_preview.webp)
+[Chill Matma](https://chillmatma.pl/) is my biggest web development project yet. The idea is pretty simple, I am trying to make it easier for Polish highschool students to prepare for the Matura final exam. My website aggregates past exam sheets and makes it as easy as possible to learn from them. The website is available under a custom .pl domain [chillmatma.pl](https://chillmatma.pl/)
+![Light website preview](light_preview.webp)
+![Dark website preview](dark_preview.webp)
 
 ### Framework
 
