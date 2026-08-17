@@ -21,7 +21,7 @@ The website runs on the Django Python framework. It was a great choice as it ena
 
 ### Backend & Architecture
 
-The website uses Gunicorn as a worker server alongside the Nginx web server. For now, I am hosting it myself as part of [my Homelab project]({{< relref "posts/homelab" >}}). The setup consists of two Docker containers (Django and Nginx) running on a minimal Alpine Linux installation. All traffic is routed through a Cloudflare proxy, using the Cloudflare tunnel service running on a third Docker container.
+The website uses Gunicorn as a worker server alongside the Nginx web server. For now, I am hosting it myself as part of [my Homelab project]({{< relref "projects/homelab" >}}). The setup consists of two Docker containers (Django and Nginx) running on a minimal Alpine Linux installation. All traffic is routed through a Cloudflare proxy, using the Cloudflare tunnel service running on a third Docker container.
 
 ### Frontend
 

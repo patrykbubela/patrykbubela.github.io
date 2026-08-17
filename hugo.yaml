@@ -2,6 +2,7 @@ baseURL: "https://3adyl.github.io/"
 locale: en-uk
 title: Patryk Bubeła
 theme: ["PaperMod"]
+pluralizeListTitles: false
 params:
   ShowShareButtons: true
   ShowToc: true
@@ -15,6 +16,8 @@ params:
       url: "https://github.com/3adyl"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/patryk-bubela"
+  mainSections:
+    - projects
 caches:
   images:
     dir: :cacheDir/images
@@ -25,9 +28,12 @@ outputs:
     - JSON
 menus:
   main:
-    - name: Home
+    - name: Projects
       pageRef: /
       weight: 10
+    - name: Blog
+      pageRef: /blog/
+      weight: 20
     - name: Search
       url: /search/
       weight: 100
