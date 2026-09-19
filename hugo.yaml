@@ -1,4 +1,4 @@
-baseURL: "https://3adyl.github.io/"
+baseURL: "https://patrykbubela.github.io/"
 locale: en-uk
 title: Patryk Bubeła
 theme: ["PaperMod"]
@@ -9,11 +9,11 @@ params:
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   homeInfoParams:
-    Title: Hello there
+    Title: Hello!
     Content: My name is Patryk Bubeła and I am a Telecommunications engineering student at the Faculty of Electronics and Information Technology, Warsaw University of Technology.
   socialIcons:
     - name: "GitHub"
-      url: "https://github.com/3adyl"
+      url: "https://github.com/patrykbubela"
     - name: "LinkedIn"
       url: "https://www.linkedin.com/in/patryk-bubela"
   mainSections:
